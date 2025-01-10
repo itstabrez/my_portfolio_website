@@ -6,7 +6,7 @@ import { Button } from './ui/button';
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
     const handleDownload = () => {
-      const fileUrl = "https://drive.usercontent.google.com/u/0/uc?id=1aSTCszc7-GA3V91_vR9Xz8n8E7IEMJAJ&export=download"; 
+      const fileUrl = "https://drive.usercontent.google.com/uc?id=1YzsuoTmx7lbEKfZpWLk18NrwXRyUra59&export=download"; 
       const link = document.createElement("a");
       link.href = fileUrl;
       link.download = "resume.pdf"; 
