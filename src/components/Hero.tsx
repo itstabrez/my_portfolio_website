@@ -25,21 +25,21 @@ const Hero = () => {
             <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
               <span className="block">Hi, I'm</span>
               <span className="block text-primary">
-              <Typewriter
-            words={['Mohammd Tabrez Alam', 'A Software Developer', 'An Engineer', 'A Coder!']}
-            loop={25}
-            cursor
-            cursorStyle='_'
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={1000}
-            onLoopDone={handleDone}
-            onType={handleType}
-          />
+                <Typewriter
+                  words={['Mohammd Tabrez Alam', 'A Software Developer', 'An Engineer', 'A Coder!']}
+                  loop={25}
+                  cursor
+                  cursorStyle='_'
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                  onLoopDone={handleDone}
+                  onType={handleType}
+                />
               </span>
             </h1>
           </motion.div>
-          
+
           <motion.p
             className="mt-3 max-w-md mx-auto text-base text-muted-foreground sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
             initial={{ opacity: 0, y: 20 }}
@@ -48,14 +48,14 @@ const Hero = () => {
           >
             I'm a passionate developer who loves to create amazing web experiences.
           </motion.p>
-          
+
           <motion.div
             className="mt-5 flex justify-center space-x-6"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1 }}
           >
-            <a href="https://github.com/itstabrez"target='_blank'  className="text-primary hover:text-secondary transition-colors duration-30 0">
+            <a href="https://github.com/itstabrez" target='_blank' className="text-primary hover:text-secondary transition-colors duration-30 0">
               <Github size={45} />
               Git
             </a>

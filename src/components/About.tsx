@@ -1,10 +1,9 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
 
 const About = () => {
-  const skills = ['Flutter' , 'JavaScript' , 'React', 'TypeScript', 'Node.js', 'SQL', 'Firebase'];
+  const skills = ['Flutter', 'React Native', 'JavaScript', 'TypeScript', 'React', 'Node.js', 'MongoDB', 'Express', 'Firebase'];
 
   return (
     <section id="about" className="py-20 bg-background">
@@ -32,10 +31,10 @@ const About = () => {
                 </div>
                 <div className="lg:w-2/3 space-y-4">
                   <p className="text-lg text-muted-foreground">
-                  I'm a passionate Full Stack Developer with expertise in modern web technologies and Flutter mobile application development. My journey in software development began with a spark of curiosity to create and has grown into a fulfilling professional career. I specialize in designing and building robust, scalable, and user-centric applications. With a focus on continuous learning, I stay updated with the latest tools and frameworks to deliver high-quality solutions that meet user needs.
+                    I’m a passionate Full Stack Developer with expertise in modern web technologies and mobile application development using Flutter and React Native. My journey in software development began with a spark of curiosity and has evolved into a fulfilling professional career. I specialize in designing and building robust, scalable, and user-centric applications. Committed to continuous learning, I stay updated with the latest tools and frameworks to deliver high-quality solutions that meet user needs.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                  I specialize in JavaScript/TypeScript, React, Node.js, Flutter, and a variety of modern web technologies. My development approach emphasizes writing clean, maintainable code and delivering exceptional user experiences that align with best practices and industry standards.
+                    I specialize in JavaScript/TypeScript, React, Node.js, Flutter, React Native, Express, and NoSQL databases like MongoDB, along with a variety of modern web technologies. My development approach emphasizes writing clean, maintainable code and delivering exceptional user experiences that adhere to best practices and industry standards.
                   </p>
                   <div className="mt-6">
                     <h3 className="text-xl font-semibold mb-3">Skills</h3>

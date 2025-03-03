@@ -20,7 +20,7 @@ const Projects = () => {
       title: 'Real Time Face Recognition App',
       description: 'A flutter application which recognize faces in realtime using Tensor Flow Model and Google ML Kit',
       image: 'https://img.freepik.com/free-photo/facial-recognition-software_52683-104208.jpg?t=st=1735579845~exp=1735583445~hmac=e229db53f49461299a59dd4f16d0a71bf05e94257b44177e3922bdc666272fc8&w=2000',
-      technologies: ['Flutter', 'SQFLite', 'TensorFlow Lite' , 'Google ML Kit' , "Face Recognition Model"],
+      technologies: ['Flutter', 'SQFLite', 'TensorFlow Lite', 'Google ML Kit', "Face Recognition Model"],
       details: 'Recognize and validate faces in real time it is a standalone model.',
       github: 'https://github.com/itstabrez/realTime-face-recognition-flutter-app',
       live: '',
@@ -29,18 +29,18 @@ const Projects = () => {
       title: 'College Attendance Management System',
       description: 'A flutter application which utilize Tensorflow Model to mark student attendance using face recognition with enhanced security like geofence to mark attendance only in college premises.',
       image: 'https://img.freepik.com/free-vector/online-certification-concept_23-2148569761.jpg?t=st=1735666020~exp=1735669620~hmac=54202d48f3cbb4dd32c2b76dccaee105f419a8706f5c1c6d4adfe3dfcab3547f&w=1060',
-      technologies: ['Flutter', '.Net', 'TensorFlow Lite' , 'Google ML Kit' , "Face Recognition Model"],
+      technologies: ['Flutter', '.Net', 'TensorFlow Lite', 'Google ML Kit', "Face Recognition Model , Firebase"],
       github: 'https://github.com/itstabrez/realTime-face-recognition-flutter-app',
       live: '',
       details: 'Features include user role management, Student Face Registration and Attendance Marking Feature with enhanced security using Geofencing.',
-      note: 'This is a collaborative project of company, so the code is not available publicly.'  
+      note: 'This is a collaborative project of company, so the code is not available publicly.'
     },
   ];
 
   return (
     <section id="projects" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.h2 
+        <motion.h2
           className="text-3xl font-extrabold text-center sm:text-4xl"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

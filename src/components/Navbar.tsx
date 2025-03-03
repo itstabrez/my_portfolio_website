@@ -5,14 +5,14 @@ import { Button } from './ui/button';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
-    const handleDownload = () => {
-      const fileUrl = "https://drive.usercontent.google.com/uc?id=1YzsuoTmx7lbEKfZpWLk18NrwXRyUra59&export=download"; 
-      const link = document.createElement("a");
-      link.href = fileUrl;
-      link.download = "resume.pdf"; 
-      link.click();
-    };
-  
+  const handleDownload = () => {
+    const fileUrl = "https://drive.google.com/file/d/1xSFUtOZJe8ceIv4sByXKmEOWqOI4n2p3/view?usp=sharing";
+    const link = document.createElement("a");
+    link.href = fileUrl;
+    link.download = "resume.pdf";
+    link.click();
+  };
+
   return (
     <nav className="fixed w-full bg-background/80 backdrop-blur-sm z-50 border-b">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -20,7 +20,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <span className="text-2xl font-bold text-primary">Portfolio</span>
           </div>
-          
+
           <div className="hidden md:flex md:items-center md:space-x-6">
             <a href="#home" className="text-muted-foreground hover:text-primary px-3 py-2 text-sm font-medium">Home</a>
             <a href="#about" className="text-muted-foreground hover:text-primary px-3 py-2 text-sm font-medium">About</a>
@@ -29,10 +29,10 @@ const Navbar = () => {
             <a href="#achievements" className="text-muted-foreground hover:text-primary px-3 py-2 text-sm font-medium">Achievements</a>
             <ThemeToggle />
             <Button className="flex items-center gap-2" onClick={handleDownload}>
-        <Download size={16} /> Resume
-      </Button>
+              <Download size={16} /> Resume
+            </Button>
           </div>
-          
+
           <div className="md:hidden flex items-center gap-4">
             <ThemeToggle />
             <button

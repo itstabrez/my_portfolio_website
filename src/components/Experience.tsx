@@ -7,16 +7,16 @@ const Experience = () => {
   const experiences = [
     {
       company: 'Mintways Technology',
-      position: 'Software Developer Trainee',
+      position: 'Software Engineer',
       period: `May 2024 - Present`,
-      description: 'I have led the development of key features for enterprise applications and worked on Flutter apps, creating end-to-end solutions. I have also shared knowledge with peers and contributed to implementing best practices in development',
+      description: 'I have led the development of key features for enterprise applications and worked on Flutter and React Native apps, creating end-to-end solutions. I have also shared knowledge with peers and contributed to implementing best practices in development',
     },
   ];
 
   return (
     <section id="experience" className="py-20 bg-secondary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.h2 
+        <motion.h2
           className="text-3xl font-extrabold text-center sm:text-4xl"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
