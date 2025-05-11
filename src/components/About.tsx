@@ -3,7 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
 
 const About = () => {
-  const skills = ['Flutter', 'React Native', 'JavaScript', 'TypeScript', 'React', 'Node.js', 'MongoDB', 'Express', 'Firebase'];
+  const skills = ['React.js', 'React Native', 'Flutter', 'JavaScript', 'TypeScript', 'Node.js', 'SQL', 'MongoDB', 'Express', 'RestFul API'];
 
   return (
     <section id="about" className="py-20 bg-background">
@@ -31,10 +31,12 @@ const About = () => {
                 </div>
                 <div className="lg:w-2/3 space-y-4">
                   <p className="text-lg text-muted-foreground">
-                    I’m a passionate Full Stack Developer with expertise in modern web technologies and mobile application development using Flutter and React Native. My journey in software development began with a spark of curiosity and has evolved into a fulfilling professional career. I specialize in designing and building robust, scalable, and user-centric applications. Committed to continuous learning, I stay updated with the latest tools and frameworks to deliver high-quality solutions that meet user needs.
+                    I'm a passionate Software Engineer with a strong foundation in full-stack development, specializing in building scalable and user-centric web and mobile applications. With hands-on experience in React, React Native, Flutter, Node.js, Firebase, and RESTful APIs, I thrive at the intersection of clean code, elegant design, and meaningful user experiences.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    I specialize in JavaScript/TypeScript, React, Node.js, Flutter, React Native, Express, and NoSQL databases like MongoDB, along with a variety of modern web technologies. My development approach emphasizes writing clean, maintainable code and delivering exceptional user experiences that adhere to best practices and industry standards.
+                    I believe in continuous learning and constantly challenge myself to stay current with modern technologies and best practices. Whether it's architecting backend services, crafting intuitive UIs, or automating workflows, I enjoy solving real-world problems through thoughtful and efficient code.
+
+                    On weekends, you’ll find me exploring new tools, contributing to side projects, or refining my skills—not because I have to, but because I love to. I'm not just building apps; I'm building a craft.
                   </p>
                   <div className="mt-6">
                     <h3 className="text-xl font-semibold mb-3">Skills</h3>

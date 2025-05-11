@@ -9,7 +9,7 @@ const Experience = () => {
       company: 'Mintways Technology',
       position: 'Software Engineer',
       period: `May 2024 - Present`,
-      description: 'I have led the development of key features for enterprise applications and worked on Flutter and React Native apps, creating end-to-end solutions. I have also shared knowledge with peers and contributed to implementing best practices in development',
+      description: 'I have led the development of key features for enterprise applications and worked on React Native and Flutter apps, creating end-to-end solutions. I have also shared knowledge with peers and contributed to implementing best practices in development',
     },
   ];
 

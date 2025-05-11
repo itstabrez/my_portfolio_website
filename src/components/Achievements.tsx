@@ -1,6 +1,6 @@
-import { Award, Trophy, Medal, Brain } from 'lucide-react';
+import { Award, Trophy, Medal, Brain, ExternalLink, StarIcon } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Achievements = () => {
   const achievements = [
@@ -14,19 +14,28 @@ const Achievements = () => {
       icon: <Brain className="h-8 w-8 text-purple-500" />,
       title: 'Data Structure And Algorithms',
       description: 'Solved 300+ Data Structures and Algorithms problems on different coding platforms such as LeetCode, GFG, and Code360 by coding ninjas.',
+      link: 'https://leetcode.com/u/itstabrez/'
+
     },
     {
       icon: <Award className="h-8 w-8 text-blue-500" />,
       title: 'Certifications',
       description: 'C++ Programming Step By Step From Beginner To Ultimate Level (Udemy)',
       link: 'https://www.udemy.com/certificate/UC-9c2c3526-3114-4ab8-9f74-26e60f032453/'
+
     },
-    // {
-    //   icon: <Medal className="h-8 w-8 text-green-500" />,
-    //   title: 'Certification',
-    //   description: 'C++ Programming Step By Step From Beginner To Ultimate Level (Udemy)',
-    //   link: 'https://www.udemy.com/certificate/UC-9c2c3526-3114-4ab8-9f74-26e60f032453/'
-    // },
+    {
+      icon: <Medal className="h-8 w-8 text-green-500" />,
+      title: 'Certification',
+      description: 'HackerRank SQL (Intermediate) Certification',
+      link: 'https://www.hackerrank.com/certificates/dc3bd5715335'
+    },
+    {
+      icon: <StarIcon className="h-8 w-8 text-red-500" />,
+      title: 'Certification',
+      description: 'Build Zomato Clone using AI - Cuvette Workshop',
+      link: 'https://drive.google.com/file/d/1UDbWtr8pgdgSZ8HQJKQtKdBkCy8DJu4E/view?usp=sharing'
+    },
 
   ];
 
@@ -60,7 +69,21 @@ const Achievements = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-center text-muted-foreground">{achievement.description}</p>
+
                 </CardContent>
+                <CardFooter className="space-x-4 justify-center">
+                  {achievement.link && index !== 0 && (
+                    <a
+                      href={achievement.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      <ExternalLink size={16} className="mr-1" /> Link
+                    </a>
+                  )}
+
+                </CardFooter>
               </Card>
             </motion.div>
           ))}
