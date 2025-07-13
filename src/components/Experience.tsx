@@ -6,10 +6,16 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const Experience = () => {
   const experiences = [
     {
+      company: 'Techasoft Pvt. Ltd.',
+      position: 'Software Developer',
+      period: `June 2025 - Present`,
+      description: 'As a Software Developer, I work on building scalable web applications with React.js on the frontend and Node.js with Express on the backend. I’ve implemented real-time features using WebSockets for chat, notifications, and live data sync, and integrated Firebase Cloud Messaging (FCM) for smart push notifications. On the backend, I develop secure, optimized REST APIs and manage deployments using AWS services like EC2 and S3 to ensure high reliability and performance.',
+    },
+    {
       company: 'Mintways Technology',
       position: 'Software Engineer',
-      period: `May 2024 - Present`,
-      description: 'I have led the development of key features for enterprise applications and worked on React Native and Flutter apps, creating end-to-end solutions. I have also shared knowledge with peers and contributed to implementing best practices in development',
+      period: `May 2024 - June 2025`,
+      description: 'I have led the development of key features for enterprise applications and worked on React.js, React Native and Flutter apps, creating end-to-end solutions. I have also shared knowledge with peers and contributed to implementing best practices in development',
     },
   ];
 
